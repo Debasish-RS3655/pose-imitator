@@ -1,6 +1,6 @@
 ## Pose Imitator
 
-A program which analyses a person's body-keypoints using Tensorflow PoseNet. Euclidean distance between any two keypoints are mapped into an angle (0 to 180 degrees) between a fixed and a movable servo. This is done for all the body keypoints, which are then sent over Serial to a connected robotic body.
+A program which analyses a person's body-keypoints using [Tensorflow PoseNet](https://www.tensorflow.org/lite/examples/pose_estimation/overview). Euclidean distance between any two keypoints are mapped into an angle (0 to 180 degrees) between a fixed and a movable servo. This is done for all the body keypoints, which are then sent over Serial to a connected robotic body.
 
 ## Warning
 Pose Estimator is still alpha.
