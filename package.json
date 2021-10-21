@@ -1,0 +1,17 @@
+{
+  "name": "pose_imitator",
+  "version": "1.0.0",
+  "description": "Body pose is estimated using Tensorflow. The keypoints are converted into servo degrees by mapping Euclidean distance between two points as the angle between a fixed and a rotating servo. The degrees are then sent over Serial and RF to the robot body which moves according to the received servo degrees.",
+  "main": "backend.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "serialport": "^9.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Debasish Buragohain",
+  "license": "ISC"
+}
