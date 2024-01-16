@@ -2,6 +2,11 @@
 
 A program which analyses a person's body-keypoints using [Tensorflow PoseNet](https://www.tensorflow.org/lite/examples/pose_estimation/overview). Euclidean distance between any two keypoints are mapped into an angle (0 to 180 degrees) between a fixed and a movable servo. This is done for all the body keypoints, which are then sent over Serial to a connected robotic body.
 
+## Demo
+![](https://github.com/Debasish-RS3655/pose-imitator/blob/main/pose%20imitator.gif)
+![](https://github.com/Debasish-RS3655/pose-imitator/blob/main/pose%20imitator%20frontend.gif)
+
+
 ## Warning
 Pose Estimator is still alpha.
 
